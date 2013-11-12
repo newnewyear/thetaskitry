@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-color: #eaeaee;
+     background: url("images/pattern.png") repeat;
+}
+.mass_wrapper {
+    box-shadow: 0 0 15px #d4d4d8;
+    border-radius: 10px;
+    font: 12px Arial, sans-serif;
+    position: relative;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    width: 980px;
+    margin-top: 25px;
+}
+.headmenu {
+    font: 11px Arial, sans-serif;
+}
+.left_container {
+    float: left;
+    padding: 12px 0 0 22px;
+    margin: 0 auto;
+}
+.left_container ul {
+    list-style: none;
+}
+.beyond_li a {
+    color: #0263b0;
+}
+.beyond_li {
+    padding-bottom: 4px;
+}
+.above_li {
+    padding-bottom: 13px;
+}
+.above_li a {
+    color: #323232;
+}
+.right_container {
+    border-left: 1px solid #969696;
+    width: 793px;
+    float: right;
+    background-color: #fbfbfb;
+    border-radius: 0 10px 10px 0;
+}
+.ps_li {
+    display: inline-block;
+    margin: 17px 0 10px 0;
+    border-right: 1px solid #f2f2f2;
+}
+.product_image {
+    display: inline-block;
+    width: 150px;
+    height: 46px;
+    background: url("images/sprite.png") 0 0;
+}
+.float_clearer {
+    clear: both;
+}
+.product_image.michelin {
+    background-position:  0 -46px;
+}
+.product_image.toyotires {
+    background-position:  0 -92px;
+}
+.product_image.continental {
+    background-position:  0 -138px;
+}
+.product_image.nokiantires {
+    background-position:  0 -184px;
+}
+.product_image.yokohama {
+    background-position:  0 -230px;
+}
+.product_image.dunlop {
+    background-position:  0 -276px;
+}
+.product_image.ovation {
+    background-position:  0 -322px;
+}
+.product_image.lassa {
+    background-position:  0 -368px;
+}
+.product_image.kumnotypes {
+    background-position:  0 -414px;
+}
+.product_image.nordman {
+    background-position:  0 -460px;
+}
+.product_image.marshal {
+    background-position:  0 -504px;
+}
+.clmn_li {
+    padding: 11px 18px 20px 27px;
+    list-style: none;
+}
+.cllast {
+    padding: 24px 18px 5px 27px;
+}
+.cr {
+    margin-right: -18px;
+}
+.ps_li_right {
+    border: none;
+}
